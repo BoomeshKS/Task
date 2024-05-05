@@ -1,0 +1,40 @@
+
+
+.app{
+  position: absolute;
+  left: 42%;
+  top: 10%;
+}
+
+.app input{
+  width: 250px;
+  height: 40px;
+  border-radius: 10px;
+  outline: none;
+  background-color: rgb(27, 26, 25);
+  color: silver;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 20px;
+  border-left: 1px solid silver;
+  border-right: none;
+}
+
+.app button{
+  margin-left: 20px;
+  width: 90px;
+  height: 40px;
+  border-radius: 10px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  background-color: rgb(24, 224, 224);
+  color: #ff037d;
+  transition: 0.5s;
+}
+
+.app button:hover{
+  background-color: #e65e9f;
+  transition: 0.5s;
+  color: blue;
+}

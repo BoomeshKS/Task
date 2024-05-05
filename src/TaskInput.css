@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@400..700&family=Trade+Winds&display=swap');
+body{
+  /* min-height: 100vh; */
+  background: #0c192c;
+  color: white;
+}
+
+.answer-box{
+  text-align: center;
+  background-color: #0c192c;
+  overflow: visible;
+  border: 2px solid rgb(17, 207, 250);
+  width: 200px;
+  /* padding: 15px; */
+  flex-direction: column;
+  display: flex;
+  gap: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  border-radius: 30px;
+  box-shadow: 0px 0px 2204px #03c0f9,
+  0px 0px 64px yellow,
+  0px 0px 200px 4px rgb(253, 3, 161);
+}
+
+.list{
+  margin: 5px;
+  padding-left: 20px;
+  justify-content: center;
+  align-items: center;
+  font-family: "Trade Winds", system-ui;
+  font-weight: 400;
+  font-style: normal;
+
+}
+
+.list button{
+  margin-left: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  border: 1px solid red;
+  background-color: rgb(106, 74, 74);
+  transition: 0.5s;
+}
+
+.list button:hover{
+  background-color: rgb(134, 62, 62);
+  transition: 0.5s;
+}
